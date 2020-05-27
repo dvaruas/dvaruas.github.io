@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: post-body-text;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -338,7 +338,8 @@ tbody tr:nth-child(odd) th {
 .post-title,
 .post-title a {
   color: #303030;
-  font-family: 'Bad Script', cursive;
+  font-family: post-headers;
+  font-size: 1.2rem;
 }
 .page-title,
 .post-title {

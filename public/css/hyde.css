@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: post-body-text;
 }
 @media (min-width: 48em) {
   html {
@@ -79,7 +79,7 @@ html {
 .sidebar-about h1 {
   color: black;
   margin-top: 0;
-  font-family: 'Rock Salt', cursive;
+  font-family: sidebar-name;
   font-size: 1.25rem;
 }
 
@@ -90,7 +90,7 @@ html {
 .sidebar-nav-item {
   display: inline;
   line-height: 1.75;
-  font-family: 'La Belle Aurore', cursive;
+  font-family: sidebar-links;
   font-size: 1.1rem;
 }
 a.sidebar-nav-item:hover,
@@ -251,4 +251,39 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+
+/* Extra CSS */
+.ccode {
+  font-family: code-writing;
+  font-size: 1rem;
+  background-color: rgb(48, 10, 36);
+  color: white;
+}
+
+.text-block:hover .ccode {
+  background-color: white;
+  color: rgb(48, 10, 36);
+}
+
+.text-block {
+  font-family: intro-normal;
+  font-size: 1.25rem;
+  margin-bottom: 5rem;
+  padding-left: 4rem;
+}
+
+.text-block:hover {
+  color: white;
+}
+
+.show-text {
+  color: #515151;
+}
+
+
+.post-links:hover {
+  text-decoration: none;
+  color: #515151;
 }

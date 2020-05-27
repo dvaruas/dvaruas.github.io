@@ -8,14 +8,44 @@
 
   <title> {{ page.title }}</title>
 
+  <style>
+      @font-face {
+        font-family: sidebar-links;
+        src: url({{ site.baseurl }}public/fonts/LaBelleAurore-Regular.ttf);
+      }
+
+      @font-face {
+        font-family: sidebar-name;
+        src: url({{ site.baseurl }}public/fonts/RockSalt-Regular.ttf);
+      }
+
+      @font-face {
+        font-family: code-writing;
+        src: url({{ site.baseurl }}public/fonts/UbuntuMono-Regular.ttf);
+      }
+
+      @font-face {
+        font-family: intro-normal;
+        src: url({{ site.baseurl }}public/fonts/Satisfy-Regular.ttf);
+      }
+
+      @font-face {
+        font-family: post-headers;
+        src: url({{ site.baseurl }}public/fonts/SpecialElite-Regular.ttf);
+      }
+
+      @font-face {
+        font-family: post-body-text;
+        src: url({{ site.baseurl }}public/fonts/Kalam-Regular.ttf);
+      }
+  </style>
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/hyde.css">
-  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=La+Belle+Aurore&family=Rochester&family=Rock+Salt&display=swap" rel="stylesheet">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/favicon.ico">
   <link rel="shortcut icon" href="{{ site.baseurl }}public/images/favicon.ico">
 
   <!-- RSS -->
