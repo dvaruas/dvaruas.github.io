@@ -1,0 +1,35 @@
+.vertical-center {
+    min-height: 100%;  
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.icons-hook {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 55px;
+    height: 45px;
+}
+
+.links-hook {
+    text-decoration: none;
+    color: black;
+}
+
+.credit-hook{
+    font-size: small;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#quote-hook {
+    font-family: 'Grape Nuts', cursive;
+    font-size: x-large;
+}
+#quote-hook:hover {
+    color: rgba(0, 0, 0, 0.1);
+}
+#quote-hook:hover .code-hook {
+    color: black;
+}
