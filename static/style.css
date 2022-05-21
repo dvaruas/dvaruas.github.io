@@ -1,17 +1,16 @@
 .vertical-center {
     padding: 20px;
-    min-height: 100%;  
     min-height: 100vh;
     display: flex;
     align-items: center;
 }
 
 .icons-hook {
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 50px;
-    height: 40px;
+    margin-top: 10px;
+    margin-left: min(10px, 0.5vw);
+    margin-right: min(10px, 0.5vw);
+    width: 100%;
+    max-height: min(40px, 5vw);
 }
 
 .links-hook {
@@ -19,14 +18,8 @@
     color: black;
 }
 
-.credit-hook{
-    font-size: small;
-    color: rgba(0, 0, 0, 0.5);
-}
-
 #quote-hook {
     font-family: 'Grape Nuts', cursive;
-    font-size: x-large;
 }
 #quote-hook:hover {
     color: rgba(0, 0, 0, 0.1);
